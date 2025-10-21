@@ -7,14 +7,28 @@ from evaluate_model import evaluate_model  # 위에서 만든 평가 함수 가�
 # 각 항목은 (모델경로, 로딩설정, 표시이름) 튜플
 models = [
     # 첫 번째 모델: 한국어 Llama 8B (8비트 양자화)
-    ("beomi/Llama-3-Open-Ko-8B", 
-     "pretrained=beomi/Llama-3-Open-Ko-8B,load_in_8bit=True", 
-     "Llama-3-Ko-8B"),
+
     
     # 두 번째 모델: Llama 3.2 3B (float16 정밀도)
-    ("meta-llama/Llama-3.2-3B-Instruct", 
-     "pretrained=meta-llama/Llama-3.2-3B-Instruct,dtype=float16", 
-     "Llama-3.2-3B"),
+    ("LGAI-EXAONE/EXAONE-Deep-7.8B", 
+     "pretrained=LGAI-EXAONE/EXAONE-Deep-7.8B,load_in_8bit=True", 
+     "LGAI-EXAONE/EXAONE-Deep-7.8B"),
+         # 두 번째 모델: Llama 3.2 3B (float16 정밀도)
+    ("deepseek-ai/DeepSeek-R1-0528-Qwen3-8B", 
+     "pretrained=deepseek-ai/DeepSeek-R1-0528-Qwen3-8B,load_in_8bit=True", 
+     "deepseek-ai/DeepSeek-R1-0528-Qwen3-8B"),
+         # 두 번째 모델: Llama 3.2 3B (float16 정밀도)
+
+    
+    ("K-intelligence/Midm-2.0-Mini-Instruct", 
+     "pretrained=K-intelligence/Midm-2.0-Mini-Instruct,dtype=float16", 
+     "K-intelligence/Midm-2.0-Mini-Instruct"),
+
+    ("upstage/SOLAR-10.7B-v1.0", 
+     "pretrained=upstage/SOLAR-10.7B-v1.0,load_in_8bit=True", 
+     "upstage/SOLAR-10.7B-v1.0")
+         # 두 번째 모델: Llama 3.2 3B (float16 정밀도)
+
     
     # 여기에 추가 모델들을 계속 추가할 수 있음...
 ]

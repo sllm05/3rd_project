@@ -5,32 +5,52 @@
 # === 필요한 라이브러리 임포트 ===
 from tabulate import tabulate  # 데이터를 예쁜 ASCII 테이블로 만들어주는 라이브러리
                                 # pip install tabulate 로 설치 필요
-import json  # JSON 파일 읽기용 표준 라이브러리
+import csv  # CSV 파일 읽기용 표준 라이브러리
 import os  # 파일 시스템 작업용 (파일 존재 확인)
 
 # === 전역 상수 정의 ===
-RESULTS_FILE = 'kmmlu_results.json'  # 모델 평가 결과가 저장된 파일 경로
-                                     # evaluate_model.py가 생성한 파일
+CSV_FILE = 'kmmlu_results.csv'  # 모델 평가 결과가 저장된 CSV 파일 경로
+                                 # evaluate_model.py가 생성한 파일
 
 def compare_models():
     """저장된 모든 모델 비교"""
     
     # === 1단계: 파일 존재 여부 확인 ===
     # os.path.exists(): 파일이 실제로 있는지 확인하는 함수
-    if not os.path.exists(RESULTS_FILE):
+    if not os.path.exists(CSV_FILE):
         # 파일이 없으면 (아직 모델을 평가하지 않았으면)
         print("❌ No results found! Run evaluate_model.py first.")
         # 사용자에게 먼저 evaluate_model.py를 실행하라고 안내
         return  # 함수 종료 (더 이상 진행 불가)
     
-    # === 2단계: JSON 파일에서 결과 읽기 ===
-    with open(RESULTS_FILE, 'r') as f:
+    # === 2단계: CSV 파일에서 결과 읽기 ===
+    results = []
+    with open(CSV_FILE, 'r', encoding='utf-8') as f:
         # 'r' 모드: 읽기 전용으로 파일 열기
+        # encoding='utf-8': 한글 등 유니코드 문자 처리
         # with 문: 파일을 자동으로 닫아줌 (메모리 누수 방지)
-        results = json.load(f)
-        # json.load(): JSON 텍스트를 파이썬 리스트/딕셔너리로 변환
-        # results는 여러 모델의 평가 결과를 담은 리스트
-        # 예: [{"model": "Llama-3", "overall": 0.75, ...}, {"model": "GPT-4", ...}]
+        reader = csv.DictReader(f)
+        # DictReader: CSV의 첫 행을 헤더로 인식하여 딕셔너리로 변환
+        # 예: {'Model': 'Llama-3', 'Overall': '0.7500', ...}
+        
+        for row in reader:
+            # CSV의 각 행을 딕셔너리로 변환하여 리스트에 추가
+            results.append({
+                'model': row['Model'],
+                'overall': float(row['Overall']),  # 문자열을 실수로 변환
+                'stem': float(row['STEM']),
+                'humss': float(row['HUMSS']),
+                'applied': float(row['Applied']),
+                'other': float(row['Other']),
+                'best': {
+                    'name': row['Best_Subject'],
+                    'score': float(row['Best_Score'])
+                },
+                'worst': {
+                    'name': row['Worst_1_Subject'],  # 최하위 첫 번째 과목
+                    'score': float(row['Worst_1_Score'])
+                }
+            })
     
     # === 3단계: 빈 결과 확인 ===
     if not results:
@@ -44,7 +64,8 @@ def compare_models():
     #   - lambda는 익명 함수 (간단한 일회용 함수)
     #   - x는 리스트의 각 요소(딕셔너리)
     # reverse=True: 내림차순 정렬 (높은 점수부터)
-    results.sort(key=lambda x: x['overall'], reverse=True)
+    results.sort(key=lambda x: x['
+    '], reverse=True)
     # 정렬 후: 1등 모델이 results[0], 꼴등이 results[-1]
     
     # === 5단계: 테이블 헤더 출력 ===
