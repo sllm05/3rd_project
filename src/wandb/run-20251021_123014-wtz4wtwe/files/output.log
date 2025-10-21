@@ -1,0 +1,138 @@
+config.json: 100%|████████████████████████████████| 605/605 [00:00<00:00, 1.11MB/s]
+tokenizer_config.json: 100%|███████████████████████| 320/320 [00:00<00:00, 509kB/s]
+tokenizer.model: 100%|████████████████████████| 1.03M/1.03M [00:00<00:00, 2.61MB/s]
+tokenizer.json: 3.60MB [00:00, 58.9MB/s]
+`torch_dtype` is deprecated! Use `dtype` instead!
+model.safetensors.index.json: 23.9kB [00:00, 32.8MB/s]
+model-00002-of-00002.safetensors: 100%|███████| 2.18G/2.18G [00:36<00:00, 59.8MB/s]
+model-00001-of-00002.safetensors: 100%|████████| 9.94G/9.94G [01:08<00:00, 146MB/s]
+Fetching 2 files: 100%|██████████████████████████████| 2/2 [01:08<00:00, 34.15s/it]
+Loading checkpoint shards: 100%|█████████████████████| 2/2 [00:13<00:00,  6.56s/it]
+generation_config.json: 100%|██████████████████████| 132/132 [00:00<00:00, 238kB/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 908.16it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 894.85it/s]
+100%|███████████████████████████████████████████| 300/300 [00:00<00:00, 904.85it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 933.29it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 933.72it/s]
+100%|███████████████████████████████████████████| 600/600 [00:00<00:00, 917.30it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 917.04it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 916.88it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 902.25it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 734.16it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 938.62it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 930.35it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 924.26it/s]
+100%|███████████████████████████████████████████| 200/200 [00:00<00:00, 921.22it/s]
+100%|███████████████████████████████████████████| 100/100 [00:00<00:00, 920.23it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 912.07it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 923.88it/s]
+100%|███████████████████████████████████████████| 100/100 [00:00<00:00, 925.06it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 919.72it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 928.70it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 926.24it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 910.64it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 907.41it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 918.50it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 910.47it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 910.47it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 703.07it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 914.66it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 897.18it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 916.31it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 907.22it/s]
+100%|███████████████████████████████████████████| 600/600 [00:00<00:00, 899.76it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 901.50it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 908.36it/s]
+100%|███████████████████████████████████████████| 100/100 [00:00<00:00, 921.29it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 903.40it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 899.49it/s]
+100%|███████████████████████████████████████████| 200/200 [00:00<00:00, 902.73it/s]
+100%|███████████████████████████████████████████| 130/130 [00:00<00:00, 890.77it/s]
+100%|███████████████████████████████████████████| 200/200 [00:00<00:00, 917.80it/s]
+100%|███████████████████████████████████████████| 100/100 [00:00<00:00, 882.90it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 900.40it/s]
+100%|███████████████████████████████████████████| 300/300 [00:00<00:00, 899.12it/s]
+100%|███████████████████████████████████████████| 100/100 [00:00<00:00, 907.96it/s]
+100%|█████████████████████████████████████████| 1000/1000 [00:01<00:00, 904.28it/s]
+Running loglikelihood requests:   0%|                   | 0/140120 [00:00<?, ?it/s]Traceback (most recent call last):
+  File "/home/sllmdj05/3rd_project/src/evaluate_model.py", line 170, in <module>
+    evaluate_model(
+  File "/home/sllmdj05/3rd_project/src/evaluate_model.py", line 52, in evaluate_model
+    results = simple_evaluate(
+              ^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/utils.py", line 456, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/evaluator.py", line 357, in simple_evaluate
+    results = evaluate(
+              ^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/utils.py", line 456, in _wrapper
+    return fn(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/evaluator.py", line 585, in evaluate
+    resps = getattr(lm, reqtype)(cloned_reqs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/api/model.py", line 391, in loglikelihood
+    return self._loglikelihood_tokens(new_reqs, disable_tqdm=disable_tqdm)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/models/huggingface.py", line 1280, in _loglikelihood_tokens
+    self._model_call(batched_inps, **call_kwargs),
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/lm_eval/models/huggingface.py", line 949, in _model_call
+    return self.model(inps).logits
+           ^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/utils/generic.py", line 918, in wrapper
+    output = func(self, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 459, in forward
+    outputs: BaseModelOutputWithPast = self.model(
+                                       ^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/utils/generic.py", line 1064, in wrapper
+    outputs = func(self, *args, **kwargs)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 395, in forward
+    hidden_states = decoder_layer(
+                    ^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/modeling_layers.py", line 94, in __call__
+    return super().__call__(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 294, in forward
+    hidden_states, _ = self.self_attn(
+                       ^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1775, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/torch/nn/modules/module.py", line 1786, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/utils/deprecation.py", line 172, in wrapped_func
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/models/llama/modeling_llama.py", line 252, in forward
+    attn_output, attn_weights = attention_interface(
+                                ^^^^^^^^^^^^^^^^^^^^
+  File "/home/sllmdj05/.pyenv/versions/third/lib/python3.11/site-packages/transformers/integrations/sdpa_attention.py", line 96, in sdpa_attention_forward
+    attn_output = torch.nn.functional.scaled_dot_product_attention(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch.OutOfMemoryError: CUDA out of memory. Tried to allocate 2.20 GiB. GPU 0 has a total capacity of 15.77 GiB of which 2.18 GiB is free. Including non-PyTorch memory, this process has 13.58 GiB memory in use. Of the allocated memory 12.77 GiB is allocated by PyTorch, and 459.47 MiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True to avoid fragmentation.  See documentation for Memory Management  (https://pytorch.org/docs/stable/notes/cuda.html#environment-variables)

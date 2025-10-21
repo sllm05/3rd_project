@@ -1,0 +1,5 @@
+2025-10-21 09:52:12,186 INFO    MainThread:91667 [wandb_init.py:setup_run_log_directory():705] Logging user logs to /home/sllmdj05/3rd_project/src/wandb/run-20251021_095212-8vwv02j9/logs/debug.log
+2025-10-21 09:52:12,186 INFO    MainThread:91667 [wandb_init.py:setup_run_log_directory():706] Logging internal logs to /home/sllmdj05/3rd_project/src/wandb/run-20251021_095212-8vwv02j9/logs/debug-internal.log
+2025-10-21 09:52:12,186 INFO    MainThread:91667 [wandb_init.py:init():832] calling init triggers
+2025-10-21 09:52:12,186 INFO    MainThread:91667 [wandb_init.py:init():837] wandb.init called with sweep_config: {}
+config: {'model': 'deepseek-ai/DeepSeek-R1-0528-Qwen3-8B', '_wandb': {}}
