@@ -293,7 +293,7 @@ def evaluate_model(model_name, model_args, label, batch_size=16, wandb_project=N
         tasks=["kmmlu"],
         batch_size=batch_size,
         device="cuda:0",
-        num_fewshot=0
+        num_fewshot=5
     )
     
     # 종료 시간 기록 및 경과 시간 계산
